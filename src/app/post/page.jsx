@@ -4,11 +4,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <>
-    <Navbar/>
-
-      <AllPostDisplay/>
-    </>
+    <div>
+      <Navbar/>
+        <AllPostDisplay/>
+    </div>
   )
 }
 
